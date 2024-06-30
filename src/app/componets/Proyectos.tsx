@@ -16,7 +16,7 @@ export default function Proyectos() {
                                 Proyectos
                             </p>
                         </div>
-                        <div className='py-8  px-[2rem]   lg:px-[9rem] '>
+                        <div className='py-8  px-[0.5rem]   lg:px-[9rem] '>
                             <p className='text-left text-gray-50 '>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis incidunt in libero
                                 itaque nostrum eos. Culpa ducimus recusandae

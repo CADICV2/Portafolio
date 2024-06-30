@@ -54,9 +54,9 @@ function Hero() {
           </div>
           <div className='grid grid-cols-2 lg:flex flex-row gap-8 text-left   '>
             <Button url='https://github.com/CADICV2' icon={<Image src={github} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"git Hub"} />
-            <Button url='' icon={<Image src={Linkedin} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Linkedin"} />
-            <Button url='' icon={<EnvelopeIcon className='h-[2rem] text-white'/>} titulo={"correo"} />
-            <Button url='' icon={<Image src={discord} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Discord"} />
+            <Button url='https://pe.linkedin.com/' icon={<Image src={Linkedin} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Linkedin"} />
+            <Button url='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvwTkzWDggffZFMnVdxBvrhdwWVmhZkDCzRBcsbgZzzPBtkkXdtPhsTDgvMrjXmTKZHNkq' icon={<EnvelopeIcon className='h-[2rem] text-white'/>} titulo={"Correo"} />
+            <Button url='https://discord.gg/8mFagSte' icon={<Image src={discord} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Discord"} />
           </div>
         </div>
 
