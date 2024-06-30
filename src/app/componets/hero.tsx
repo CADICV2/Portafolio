@@ -1,12 +1,27 @@
 import React from 'react';
 import Image from 'next/image';
 import Perfil from '@/img/24809a31206ca1b02ad3646f1c3dbd1e.jpg';
-import Next from '@/img/nextjs-icon-svgrepo-com.svg';
+import Next from '@/img/nextjs-fill-svgrepo-com.svg';
+import Cshard from '@/img/csharp2-svgrepo-com.svg';
+import python from '@/img/python-svgrepo-com.svg';
+import html from '@/img/html-5-svgrepo-com.svg';
+import javaS from '@/img/javascript-svgrepo-com.svg';
+import CSS from '@/img/css-3-svgrepo-com.svg';
+import Tailwind from '@/img/tailwind-svgrepo-com.svg';
+import sql from '@/img/sql-svgrepo-com.svg';
+import MySQL from '@/img/mysql-svgrepo-com.svg';
+import PostgreSQL from '@/img/postgresql-svgrepo-com.svg';
+import MongoDB from '@/img/mongodb-svgrepo-com.svg';
 import Button from '@/app/componets/Subcomponets/buttons'
-import Taw from '@/img/tailwind-css-svgrepo-com.svg'
 import Php from '@/img/php-svgrepo-com.svg'
-import Sql from '@/img/microsoft-sql-server-logo-svgrepo-com.svg'
-import { HeartIcon } from '@heroicons/react/24/outline';
+import github from '@/img/github-svgrepo-com.svg'
+import Linkedin from '@/img/linkedin-svgrepo-com.svg'
+import Github from '@/img/github-svgrepo-com.svg'
+import git from '@/img/git-icon-logo-svgrepo-com.svg'
+import vscode from '@/img/vscode3-svgrepo-com.svg'
+import terminal from '@/img/linkedin-svgrepo-com.svg'
+import { HeartIcon,EnvelopeIcon } from '@heroicons/react/24/outline';
+import css from 'styled-jsx/css';
 
 
 function Hero() {
@@ -38,10 +53,10 @@ function Hero() {
 
           </div>
           <div className='grid grid-cols-2 lg:flex flex-row gap-8 text-left   '>
-            <Button  icon={<HeartIcon className='h-[2rem] text-white'/>} titulo={"git Hub"} />
-            <Button  icon={<HeartIcon className='h-[2rem] text-white'/>} titulo={"Linkedin"} />
-            <Button  icon={<HeartIcon className='h-[2rem] text-white'/>} titulo={"correo"} />
-            <Button  icon={<HeartIcon className='h-[2rem] text-white'/>} titulo={"Archer"} />
+            <Button  icon={<Image src={github} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"git Hub"} />
+            <Button  icon={<Image src={Linkedin} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Linkedin"} />
+            <Button  icon={<EnvelopeIcon className='h-[2rem] text-white'/>} titulo={"correo"} />
+            <Button  icon={<Image src={Linkedin} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Archer"} />
           </div>
         </div>
 
@@ -66,16 +81,16 @@ function Hero() {
                 </div>
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={html} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={CSS} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={javaS} alt='nextjs' className='w-[7.5rem] h-[7.5rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={Tailwind} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
             </div>
             <div className='  grid grid-cols-2  gap-2  px-6 py-8 border-4 border-slate-700  '>
@@ -83,16 +98,16 @@ function Hero() {
                 <div className='flex justify-center'>
                   <p className='text-white'>BACKEND</p></div></div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={Php} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={Next} alt='nextjs' className='w-[7.5rem] h-[7.5rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={python} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={Cshard} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
             </div>
             <div className='  grid grid-cols-2  gap-2  px-6 py-8 border-4 border-slate-700  '>
@@ -100,33 +115,33 @@ function Hero() {
                 <div className='flex justify-center'>
                   <p className='text-white'>DATABASE</p></div></div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={sql} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={MongoDB} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={MySQL} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={PostgreSQL} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
             </div>
             <div className='  grid grid-cols-2  gap-2  px-6 py-8 border-4 border-slate-700  '>
               <div className='grid col-span-2 p-2'>
                 <div className='flex justify-center'>
-                  <p className='text-white'>APRENDIENDO</p></div></div>
+                  <p className='text-white'>HERRAMIENTAS</p></div></div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={Github} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={git} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={vscode} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={terminal} alt='nextjs' className='w-[8rem] h-[8rem] ' />
               </div>
             </div>
 
