@@ -12,7 +12,7 @@ export default function Proyectos() {
                 <div className='flex flex-col justify-center gap-8 items-center '>
                     <div className='pb-[2rem] px-[1rem] 2xl:px-[20rem] lg:pb-[4rem] '>
                         <div className=''>
-                            <p className='text-center text-2xl text-gray-50 pt-[5rem] '>
+                            <p className='text-center text-2xl text-gray-50 pt-[5rem]  font-serif'>
                                 Proyectos
                             </p>
                         </div>
@@ -28,23 +28,36 @@ export default function Proyectos() {
                         <Card
                             img={Proc2}
                             model=''
+                            Titulo='sitio web'
                             text=' Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                               Labore aspernatur unde impedit voluptate sed necessitatibus distinctio voluptatem cupiditate, quasi exercitationem reprehenderit consequatur
-                               aliquid error officiis illum. Minima veritatis earum praesentium!'
+                               Labore aspernatur unde impedit voluptate sed necessitatibus distinctio '
+                            Leng1='Php'
+                            Leng2='JavaScript'
+                            Leng3='ReacJS'
+                            Leng4='SAAS'
                         />
                         <Card
                             img={Proc2}
                             model=''
+                            Titulo='sitio web'
                             text=' Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                               Labore aspernatur unde impedit voluptate sed necessitatibus distinctio voluptatem cupiditate, quasi exercitationem reprehenderit consequatur
-                               aliquid error officiis illum. Minima veritatis earum praesentium!'
+                               Labore aspernatur unde impedit voluptate sed necessitatibus distinctio '
+                            Leng1='Php'
+                            Leng2='JavaScript'
+                            Leng3='ReacJS'
+                            Leng4='SAAS'
                         />
+                        
                         <Card
                             img={Proc2}
                             model='col-span-2 lg:flex-row-reverse'
+                            Titulo='sitio web'
                             text=' Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                               Labore aspernatur unde impedit voluptate sed necessitatibus distinctio voluptatem cupiditate, quasi exercitationem reprehenderit consequatur
-                               aliquid error officiis illum. Minima veritatis earum praesentium!'
+                               Labore aspernatur unde impedit voluptate sed necessitatibus distinctio '
+                            Leng1='Php'
+                            Leng2='JavaScript'
+                            Leng3='ReacJS'
+                            Leng4='SAAS'
                         />
 
                     </div>

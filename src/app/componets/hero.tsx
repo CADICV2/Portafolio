@@ -16,10 +16,10 @@ import Button from '@/app/componets/Subcomponets/buttons'
 import Php from '@/img/php-svgrepo-com.svg'
 import github from '@/img/github-svgrepo-com.svg'
 import Linkedin from '@/img/linkedin-svgrepo-com.svg'
-import Github from '@/img/github-svgrepo-com.svg'
 import git from '@/img/git-icon-logo-svgrepo-com.svg'
 import vscode from '@/img/vscode3-svgrepo-com.svg'
-import terminal from '@/img/linkedin-svgrepo-com.svg'
+import terminal from '@/img/terminal-access-pc-computer-screen-svgrepo-com.svg'
+import discord from '@/img/discord-svgrepo-com.svg'
 import { HeartIcon,EnvelopeIcon } from '@heroicons/react/24/outline';
 import css from 'styled-jsx/css';
 
@@ -53,10 +53,10 @@ function Hero() {
 
           </div>
           <div className='grid grid-cols-2 lg:flex flex-row gap-8 text-left   '>
-            <Button  icon={<Image src={github} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"git Hub"} />
-            <Button  icon={<Image src={Linkedin} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Linkedin"} />
-            <Button  icon={<EnvelopeIcon className='h-[2rem] text-white'/>} titulo={"correo"} />
-            <Button  icon={<Image src={Linkedin} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Archer"} />
+            <Button url='https://github.com/CADICV2' icon={<Image src={github} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"git Hub"} />
+            <Button url='' icon={<Image src={Linkedin} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Linkedin"} />
+            <Button url='' icon={<EnvelopeIcon className='h-[2rem] text-white'/>} titulo={"correo"} />
+            <Button url='' icon={<Image src={discord} alt='github' className='h-[2rem] w-[2rem] '/>} titulo={"Discord"} />
           </div>
         </div>
 
@@ -81,16 +81,16 @@ function Hero() {
                 </div>
               </div>
               <div className='flex justify-center'>
-                <Image src={html} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={html} alt='nextjs' className='w-[8rem] h-[8rem]  transition duration-300 ease-in-out transform hover:scale-105' />
               </div>
               <div className='flex justify-center'>
-                <Image src={CSS} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={CSS} alt='nextjs' className='w-[8rem] h-[8rem] transition duration-300 ease-in-out transform hover:scale-105' />
               </div>
               <div className='flex justify-center'>
-                <Image src={javaS} alt='nextjs' className='w-[7.5rem] h-[7.5rem] ' />
+                <Image src={javaS} alt='nextjs' className='w-[7.5rem] h-[7.5rem]  transition duration-300 ease-in-out transform hover:scale-105' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Tailwind} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={Tailwind} alt='nextjs' className='w-[8rem] h-[8rem]  transition duration-300 ease-in-out transform hover:scale-105' />
               </div>
             </div>
             <div className='  grid grid-cols-2  gap-2  px-6 py-8 border-4 border-slate-700  '>
@@ -98,16 +98,16 @@ function Hero() {
                 <div className='flex justify-center'>
                   <p className='text-white'>BACKEND</p></div></div>
               <div className='flex justify-center'>
-                <Image src={Php} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={Php} alt='nextjs' className='w-[8rem] h-[8rem] transition duration-300 ease-in-out transform hover:scale-105 ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Next} alt='nextjs' className='w-[7.5rem] h-[7.5rem] ' />
+                <Image src={Next} alt='nextjs' className='w-[7.5rem] h-[7.5rem] transition duration-300 ease-in-out transform hover:scale-105' />
               </div>
               <div className='flex justify-center'>
-                <Image src={python} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={python} alt='nextjs' className='w-[8rem] h-[8rem]  transition duration-300 ease-in-out transform hover:scale-105' />
               </div>
               <div className='flex justify-center'>
-                <Image src={Cshard} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={Cshard} alt='nextjs' className='w-[8rem] h-[8rem] transition duration-300 ease-in-out transform hover:scale-105 ' />
               </div>
             </div>
             <div className='  grid grid-cols-2  gap-2  px-6 py-8 border-4 border-slate-700  '>
@@ -115,16 +115,16 @@ function Hero() {
                 <div className='flex justify-center'>
                   <p className='text-white'>DATABASE</p></div></div>
               <div className='flex justify-center'>
-                <Image src={sql} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={sql} alt='nextjs' className='w-[8rem] h-[8rem] transition duration-300 ease-in-out transform hover:scale-105 ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={MongoDB} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={MongoDB} alt='nextjs' className='w-[7.5rem] h-[7.5rem]  transition duration-300 ease-in-out transform hover:scale-105' />
               </div>
               <div className='flex justify-center'>
-                <Image src={MySQL} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={MySQL} alt='nextjs' className='w-[7.5rem] h-[7.5rem] transition duration-300 ease-in-out transform hover:scale-105 ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={PostgreSQL} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={PostgreSQL} alt='nextjs' className='w-[8rem] h-[8rem] transition duration-300 ease-in-out transform hover:scale-105 ' />
               </div>
             </div>
             <div className='  grid grid-cols-2  gap-2  px-6 py-8 border-4 border-slate-700  '>
@@ -132,16 +132,16 @@ function Hero() {
                 <div className='flex justify-center'>
                   <p className='text-white'>HERRAMIENTAS</p></div></div>
               <div className='flex justify-center'>
-                <Image src={Github} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={github} alt='nextjs' className='w-[7.5rem] h-[7.5rem] transition duration-300 ease-in-out transform hover:scale-105 ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={git} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={git} alt='nextjs' className='w-[7.5rem] h-[7.5rem] transition duration-300 ease-in-out transform hover:scale-105 ' />
               </div>
               <div className='flex justify-center'>
-                <Image src={vscode} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={vscode} alt='nextjs' className='w-[8rem] h-[8rem]  transition duration-300 ease-in-out transform hover:scale-105' />
               </div>
               <div className='flex justify-center'>
-                <Image src={terminal} alt='nextjs' className='w-[8rem] h-[8rem] ' />
+                <Image src={terminal} alt='nextjs' className='w-[7.5rem] h-[7.5rem] transition duration-300 ease-in-out transform hover:scale-105' />
               </div>
             </div>
 
