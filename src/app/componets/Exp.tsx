@@ -55,7 +55,7 @@ function Exp() {
 '      
                             />
 
-                            <Button icon={<IdentificationIcon className=' text-white h-[1.5rem] w-[1.5rem]'  />}  titulo='Curriculum'/>
+                            <Button url='' icon={<IdentificationIcon className=' text-white h-[1.5rem] w-[1.5rem]'  />}  titulo='Curriculum'/>
                 </div>
 
 
