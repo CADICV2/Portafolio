@@ -52,7 +52,7 @@ function Exp() {
                     />
 
                         
-                             <Button  url='https://drive.google.com/file/d/16yQDpUgAGKGdSjUxnB8slhMcwkFf4Z4X/view?usp=drive_link'  icon={<IdentificationIcon className=' text-white h-[1.5rem] w-[1.5rem]' />} titulo='Curriculum'  />
+                             <Button  url=''  icon={<IdentificationIcon className=' text-white h-[1.5rem] w-[1.5rem]' />} titulo='Curriculum'  />
                        
                 
                 </div>
