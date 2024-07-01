@@ -12,7 +12,7 @@ function Exp() {
                 <div className='flex flex-col items-center gap-10 pb-[2rem] px-[1rem] 2xl:px-[20rem] lg:pb-[4rem]'>
 
                     <div className='flex flex-col items-center '>
-                        <span className='text-white text-2xl'>experiencia</span>
+                        <span className='text-white text-2xl'>Experiencia</span>
                     </div>
 
 
