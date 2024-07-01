@@ -43,11 +43,9 @@ function Hero() {
             </div>
             <div className='flex w-auto lg:w-[30rem] h-auto lg:h-[20rem] lg:items-center'>
               <p className='text-white text-sm sm:text-base md:text-lg lg:text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fugit hic dolore! Est quo,
-                ullam velit cumque, commodi dolor, eveniet pariatur explicabo a porro iusto quidem quisquam
-                nostrum itaque. Minus. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Laudantium similique fuga minima sit. Nulla non iste reprehenderit
-                facere ullam. Officiis quisquam alias dolor rerum blanditiis, cum sint fuga id sed?
+                <span className='text-[#e17e41]'>Tecnico en Desarrollo software</span> apasionado por la
+                 tecnologia y aprendizaje continuo con experiencia en distintos rubros <span className='text-[#a6e6f0]'>con una  gran 
+                 obsesion a los nuevos desafios</span> cuales debo enfrentar en este mundo del software.
               </p>
             </div>
 
@@ -66,10 +64,8 @@ function Hero() {
               Tecnologias
             </p>
             <p className='text-white  py-[16px] lg:text-left '>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusantium corrupti
-              asperiores, libero veniam ipsa laudantium,
-              dolorum eum similique, unde delectus vitae. Dolor reiciendis quidem perspiciatis
-              laudantium alias, autem eos?
+              En el <span className='text-[#46BAEB]'>trancurso de mi vida como programador </span> he cultivado <span className='text-[#e17e41]'>experiencia y habilidades</span> en una 
+              de variedad de tecnologias. <span className='text-[#46BAEB]'>Mi Stack tecnologico Incluye:</span>
             </p>
           </div>
           <div className='flex flex-col   gap-6  lg:grid grid-cols-2'>
