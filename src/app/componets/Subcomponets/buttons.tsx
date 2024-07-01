@@ -17,7 +17,7 @@ export default function Buttons({ icon, titulo, url }: ButtonsProps) {
         rel="noopener noreferrer" // Seguridad adicional
       >
         {icon}
-        <span className='text-white'>
+        <span className='text-white '>
           {titulo}
         </span>
       </a>

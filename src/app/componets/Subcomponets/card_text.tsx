@@ -22,7 +22,7 @@ export default function card_text({ icon, text, text2, text3, text4 }: card_text
                     <span className='text-[#BFA195]'> {text2}</span>
                 </div>
                 <span className='text-[#8B94A7]  '> {text3}</span>
-                <div className='h-[5rem]  w-auto   lg:w-[40rem] '>
+                <div className='  w-auto   lg:w-[40rem] '>
                     <span className='text-white text-center'> {text4}
                     </span>
                 </div>
